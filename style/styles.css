@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Press+Start+2P&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(182, 183, 185);
+  height: 90px;
+  width: 100%;
+}
+
+header img {
+  height: 90%;
+}
+
+header nav ul {
+  display: flex;
+}
+.navbar li {
+  text-align: center;
+  display: inline-flex;
+  list-style: none;
+  align-items: flex-end;
+  padding: 0 30px;
+  margin-right: auto;
+  font-family: 'Abel', sans-serif;
+  font-size: large;
+
+}
+.navbar img {
+  width: 23em;
+  position: relative;
+}
+.navbar li a{
+    color: azure;
+}
+.navbar li a:hover{
+    color: aqua;
+}
